@@ -97,7 +97,7 @@ import {
   CSidebarMinimizer,
   CSidebarNav,
   CSidebarNavDivider,
-  // CSidebarNavDropdown,
+  CSidebarNavDropdown,
   CSidebarNavItem,
   CSidebarNavTitle,
   CSpinner,
@@ -220,7 +220,7 @@ function App() {
       <CSidebarMinimizer />
       <CSidebarNav>Content</CSidebarNav>
       <CSidebarNavDivider />
-      {/* <CSidebarNavDropdown>Content</CSidebarNavDropdown> */}
+      <CSidebarNavDropdown>Content</CSidebarNavDropdown>
       <CSidebarNavItem>Content</CSidebarNavItem>
       <CSidebarNavTitle>Content</CSidebarNavTitle>
       <CSpinner />

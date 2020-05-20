@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import { CIconRaw } from '@coreui/icons-react'
 import { 
   CAlert,
   CBadge,
@@ -122,6 +123,7 @@ import {
 function App() {
   return (
     <div className="App">
+      <CIconRaw content="logo192" />
       <CAlert>Content</CAlert>
       <CBadge>Content</CBadge>
       <CHeaderBrand>Content</CHeaderBrand>
@@ -129,7 +131,7 @@ function App() {
       <CSidebarBrand>Content</CSidebarBrand>
       <CBreadcrumb>Content</CBreadcrumb>
       <CBreadcrumbItem>Content</CBreadcrumbItem>
-      <CBreadcrumbRouter/>
+      <CBreadcrumbRouter />
       <CButton>Content</CButton>
       <CButtonClose>Content</CButtonClose>
       <CButtonGroup>Content</CButtonGroup>
@@ -209,7 +211,9 @@ function App() {
       <CNavItem>Content</CNavItem>
       <CNavLink>Content</CNavLink>
       <CPagination onActivePageChange={() => {}} />
-      <CPopover><div>Content</div></CPopover>
+      <CPopover>
+        <div>Content</div>
+      </CPopover>
       <CProgress>Content</CProgress>
       <CProgressBar>Content</CProgressBar>
       <CRow>Content</CRow>

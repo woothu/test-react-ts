@@ -103,6 +103,7 @@ import {
   CSidebarNavTitle,
   CSpinner,
   CSubheader,
+  CSwitch,
   CTabContent,
   CTabPane,
   CTabs,
@@ -125,7 +126,7 @@ React.icons = { icon: ["24 24", "<path d='M12 3.75c-5.385 0-9.75 4.365-9.75 9.75
 function App() {
   return (
     <div className="App">
-      <CIconRaw name="icon" />
+      <CIconRaw name="icon"/>
       <CAlert>Content</CAlert>
       <CBadge>Content</CBadge>
       <CHeaderBrand>Content</CHeaderBrand>
@@ -229,8 +230,9 @@ function App() {
       <CSidebarNavDropdown>Content</CSidebarNavDropdown>
       <CSidebarNavItem>Content</CSidebarNavItem>
       <CSidebarNavTitle>Content</CSidebarNavTitle>
-      <CSpinner />
+      <CSpinner/>
       <CSubheader>Content</CSubheader>
+      <CSwitch variant="3d"/>
       <CTabContent>Content</CTabContent>
       <CTabPane>Content</CTabPane>
       <CTabs>Content</CTabs>

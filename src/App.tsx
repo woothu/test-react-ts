@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import { CIconRaw } from '@coreui/icons-react'
+import CIcon from '@coreui/icons-react'
 import { 
   CAlert,
   CBadge,
@@ -126,7 +126,7 @@ React.icons = { icon: ["24 24", "<path d='M12 3.75c-5.385 0-9.75 4.365-9.75 9.75
 function App() {
   return (
     <div className="App">
-      <CIconRaw name="icon"/>
+      <CIcon name="icon"/>
       <CAlert>Content</CAlert>
       <CBadge>Content</CBadge>
       <CHeaderBrand>Content</CHeaderBrand>

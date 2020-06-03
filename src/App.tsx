@@ -70,9 +70,7 @@ import {
   CLink,
   CCardLink,
   CListGroup,
-  CListGroupItemHeading,
   CListGroupItem,
-  CListGroupItemText,
   CMedia,
   CMediaBody,
   CModal,
@@ -194,12 +192,10 @@ function App() {
       <CInputGroupText>Content</CInputGroupText>
       <CJumbotron>Content</CJumbotron>
       <CLabel>Content</CLabel>
-      <CLink>Content</CLink>
+      <CLink target="_blank">Content</CLink>
       <CCardLink>Content</CCardLink>
       <CListGroup>Content</CListGroup>
-      <CListGroupItemHeading>Content</CListGroupItemHeading>
       <CListGroupItem>Content</CListGroupItem>
-      <CListGroupItemText>Content</CListGroupItemText>
       <CMedia>Content</CMedia>
       <CMediaBody>Content</CMediaBody>
       <CModal>Content</CModal>

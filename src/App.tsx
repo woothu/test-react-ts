@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import CIcon from '@coreui/icons-react'
+import { CChartBar } from '@coreui/react-chartjs'
 import { 
   CAlert,
   CBadge,
@@ -124,8 +125,24 @@ React.icons = { icon: ["24 24", "<path d='M12 3.75c-5.385 0-9.75 4.365-9.75 9.75
 function App() {
   return (
     <div className="App">
-      <CIcon name="icon"/>
-      <CAlert>Content</CAlert>
+      <CChartBar
+        datasets={[
+          {
+            label: "GitHub Commits",
+            backgroundColor: "#f87979",
+            data: [40, 20, 12, 39, 10, 40, 39, 80, 40, 20, 12, 11],
+          },
+        ]}
+        labels="months"
+        options={{
+          tooltips: {
+            enabled: true,
+          }
+        }}
+        style={{ height: '100px' }}
+      />
+      <CIcon name="icon" />
+      <CAlert >Content</CAlert>
       <CBadge>Content</CBadge>
       <CHeaderBrand>Content</CHeaderBrand>
       <CNavbarBrand>Content</CNavbarBrand>
@@ -226,9 +243,9 @@ function App() {
       <CSidebarNavDropdown>Content</CSidebarNavDropdown>
       <CSidebarNavItem>Content</CSidebarNavItem>
       <CSidebarNavTitle>Content</CSidebarNavTitle>
-      <CSpinner/>
+      <CSpinner />
       <CSubheader>Content</CSubheader>
-      <CSwitch variant="3d"/>
+      <CSwitch variant="3d" />
       <CTabContent>Content</CTabContent>
       <CTabPane>Content</CTabPane>
       <CTabs>Content</CTabs>
